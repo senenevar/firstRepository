@@ -2,7 +2,7 @@ import { getPopularMovie, getBestComedies, getBestAction } from "./config.js";
 import { popularMovieContainer, bestComediesContainer, popularLeftBtn, popularRigthBtn, bestComedyLeft, bestComedyRight, bestActionRight, bestActionLeft, bestActionContainer, videoContainer } from "./query.js";
 import { img_path } from "./api.js";
 import MainCard from "./MainCard.js";
-import Slider from "./Slider.js";
+import Slider from "./slider.js";
 import VideoCard from "./VideoCard.js";
 
 getPopularMovie()
