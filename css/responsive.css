@@ -1,0 +1,138 @@
+@media screen and (max-width: 1170px) {
+    .container {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .slider-container {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .responsive_btn {
+        display: inline;
+
+    }
+
+    .header_nav {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.568);
+        top: 0;
+        left: -250px;
+        height: 100vh;
+        width: 250px;
+        padding-top: 20px;
+        padding-left: 20px;
+        transition: .4s;
+    }
+
+    #respCheck:checked~.header_nav {
+        left: 0;
+    }
+
+    .header_nav .row {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .Desc_page-container {
+        flex-direction: column;
+    }
+
+    .Desc_page-movie_info {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .Footer-nav_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .Section_header {
+        flex-direction: column;
+
+    }
+
+    .view_all-Btn {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    .Footer-main_link {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Header_text-box {
+        text-align: center;
+    }
+
+    .Header_text-box .h1 {
+        font-size: 200%;
+    }
+
+    .Header-movie_types {
+        justify-content: center;
+    }
+
+    .Header-paragraph {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Header-movie_info {
+        justify-content: center;
+    }
+
+    .Header-btns {
+        justify-content: center;
+    }
+
+    .Desc_page-movie_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .Header-btns,
+    #descriptionHeader .container:nth-child(1),
+    .header_shadow .container:nth-child(1) {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .Desc_page-btns {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 416px) {
+
+    .Desc_page-movie-container,
+    .video_grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+}
